@@ -4,7 +4,7 @@
     padding: 0px;
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
+    font-size: 15pt;
     font-weight: bold;
 }
 
@@ -23,21 +23,33 @@ section {
     margin-top: 30px;
     border-radius: 30px;
     padding: 20px;
-
 }
 
-div#primeira {
-    display: flex;
-    justify-content: center;
+div#teclado {
     background: #ffffff;
-    padding-top: 300px;
-    margin: auto;
-    width: 200px;
-    height: 50px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
 }
-
-div input[type='button']{
+div#primeira {
+    background: #ffffff;
+}
+div#segunda {
+    background: #ffffff;
+}
+div#terceira {
+    background: #ffffff;
+    width: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type='button']{
     background: #ffffff;
     border-radius: 5px;
     margin: 8px;
+    width: 40px;
+    height: 40px;
 }
